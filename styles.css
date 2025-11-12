@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff6348;
+}
+
+.calendar {
+  width: 40%;
+  text-align: center;
+  background-color: #706fd3;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.month {
+  margin: 0;
+  background-color: #574b90;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.day {
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.date {
+  font-size: 80px;
+  color: white;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.year {
+  margin: 20px 0;
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
