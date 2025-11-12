@@ -16,7 +16,7 @@ body {
 .calendar {
   width: 40%;
   text-align: center;
-  background-color: #706fd3;
+  background-color: #fda7df;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   overflow: hidden;
@@ -43,7 +43,7 @@ body {
 
 .date {
   font-size: 80px;
-  color: white;
+  color: #44bd32;
   margin: 20px 0;
   font-weight: bold;
 }

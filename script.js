@@ -1,6 +1,6 @@
 const monthNames = document.getElementById("month");
 const dayNames = document.getElementById("day");
-const dateNumber = document.getElementById("date-number");
+const dateNumber = document.getElementById("date");
 const yearNumber = document.getElementById("year");
 
 const date = new Date();
@@ -13,6 +13,3 @@ dayNames.innerHTML = date.toLocaleDateString("default", { weekday: "long" });
 dateNumber.innerHTML = date.getDate();
 
 yearNumber.innerHTML = date.getFullYear();
-
-
-
